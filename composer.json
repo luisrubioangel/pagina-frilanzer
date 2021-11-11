@@ -1,0 +1,18 @@
+{
+    "name": "angel/pagina-freelanzaer",
+    "autoload": {
+        "psr-4": {
+           "MVC\\":"./",
+           "Controllers\\":"./controllers",
+           "Model\\":"./models"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "luis angel",
+            "email": "rubiocanches@gmail.com"
+        }
+    ],
+    "require": {}
+}
