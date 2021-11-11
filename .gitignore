@@ -220,3 +220,9 @@ dist
 *.vob
 *.wmv
 *.webm
+
+
+*.woff
+*.woff2
+*.eot
+*.ttf

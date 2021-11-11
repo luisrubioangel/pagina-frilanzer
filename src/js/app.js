@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     snowflaker();
 });
 
+
 snowflaker=()=>{
     let canvas=document.getElementById('nevado');
     canvas.width=window.screen.availWidth;
@@ -95,8 +96,8 @@ snowflaker=()=>{
 writer=()=>{
     const typed =new Typed('.typed',{
         strings:['<i class="Writer">Bienvenido, :) </i>' ,
-                 '<i class="Writer">Diseño de páginas web  </i>' ,
-                 '<i class="Writer" > a tu medida </i>',
+                 '<i class="Writer">Profe cuchito   </i>' ,
+                 '<i class="Writer" > pnme 18 de promedio final :V </i>',
                  '<i class="Writer" >  ;)</i>',
                  
               

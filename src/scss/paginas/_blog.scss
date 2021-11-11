@@ -1,0 +1,55 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+#blog{
+    margin-top: 30rem;
+    
+
+    .blog-container{
+        display: flex;
+        justify-content:center;
+        gap: 3.2rem;
+        margin: 4rem 0;
+    }
+    .blog{
+        background-color: black;
+        margin: 0 1rem;
+        &-imagen{
+            width: 80%;
+            text-align: center;
+
+        }
+    }
+
+}
+#portafolio{
+    margin-top: 10rem;
+    .paginas{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:auto;
+        margin: 4rem 0;
+
+      
+       
+    }
+    .pagina{
+        margin: 3.5rem;
+       
+        &-imagen{
+            width: 80%;
+        }
+    }
+}
+#social{
+   
+    .container-sociales{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows:auto;
+    }
+    .redsocioal-imagen{
+        background-color: azure;
+    }
+
+}
+
