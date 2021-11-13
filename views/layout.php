@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Salón</title>
+    <title>Paginas</title>
     <link rel="stylesheet" href="build/css/all.min.css">
     <link rel="stylesheet" href="build/css/app.css">
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.min.js"></script> -->
@@ -19,6 +19,7 @@
         <span><i class="fas fa-phone"></i>+51 977638165 </span>
         <span><i class="fas fa-envelope-open-text"></i>rubiocanches@gmail.com </span>
     </p>
+<?php if($header):?>
     <div class="head-contenedor-video">
 
         <div class="head-overlay">
@@ -32,6 +33,7 @@
         </div>
 
     </div>
+<?php endif?>
     <div class="contenedor-menu">
         <picture>
             <source srcset="./build/img/logo.webp" type="image/webp">

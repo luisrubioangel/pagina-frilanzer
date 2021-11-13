@@ -25,13 +25,16 @@ window.addEventListener("scroll", (e) => {
       animw[0].setSpeed(-0.6);
       setTimeout(() => {
         animw[0].stop();
-      }, 1380);
+        const ContaineAnima=document.getElementById('animacion-lottie');
+        ContaineAnima.style.zIndex=-10;
+
+      }, 1340);
       // animw[0].pause();
       console.log("dd");
     }, 1550);
   }
 });
-let movi= document.getElementById("services-type");
+let movi= document.getElementById("animacionClick");
 let animacionClick = lottie.loadAnimation({
   container: movi, // the dom element that will contain the animation
   renderer: "svg",
@@ -39,10 +42,16 @@ let animacionClick = lottie.loadAnimation({
   autoplay: false,
   path: `./../../JSON/1370i.json`,
 });
+movi.style.display='none';
+movi.style.zIndex=-10;
 const conta=document.querySelectorAll(".services-type>div");
 conta.forEach((enveto,key)=>{
   enveto.addEventListener('click',(e)=>{
+    movi.style.display='block';
+    movi.style.zIndex=5;
      console.log('holas')
-    animacionClick.playSegments([0,60], true);
+    animacionClick.playSegments([0,100], true);
    })
 });
+
+

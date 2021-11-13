@@ -6,16 +6,15 @@ use MVC\Router;
 
 //use Twilio\Rest\Api\V2010\Account\ValidationRequestList;
 
-class PaginaControllers
+class BlogController
 {
-    public static function index(Router $router)
+    public static function blogs(Router $router)
     {   // $auth=new Admin();0
-
-        $router->render('paginas/index', [
+        $router->render('paginas/blogs', [
             'Dato'=>false,
-            'header'=>true
+            'header'=>false
              
         ]);
     }
-   
-}   
+
+}

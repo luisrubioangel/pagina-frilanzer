@@ -2,20 +2,54 @@
 @use 'base/mixins' as m;
 #blog{
     margin-top: 30rem;
+    //margin-bottom: 20rem;
+    .contenedo-btn{
+    }
+    .btn-blog{
+        position: relative;    
+        left: 80%;  
+        display: block;
+        width: 20rem;
+        height: 5rem;
+        background-color: blue;
+        border-radius: 10px;
+        text-align: center;
+        line-height: 48px;
+
+        a{
+            color: #ffffff;
+            font-weight: v.$bold;
+            
+        }
+        
+        &:hover{
+            cursor: pointer;
+        }
+    }
     
 
     .blog-container{
         display: flex;
         justify-content:center;
         gap: 3.2rem;
-        margin: 4rem 0;
+        margin: 4rem 3rem;
+
     }
     .blog{
-        background-color: black;
+        background-color: rgba(245, 241, 241, 0.918);
         margin: 0 1rem;
+        border-radius: 20px;
+        text-align: center;
+        h3,h4{
+            color: black;
+        }
+        
         &-imagen{
             width: 80%;
+            margin: 2rem 1rem;
             text-align: center;
+            border-radius: 15px;
+            
 
         }
     }
@@ -27,16 +61,22 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows:auto;
-        margin: 4rem 0;
+        margin: 4rem 3rem;
 
       
        
     }
     .pagina{
         margin: 3.5rem;
+        
        
         &-imagen{
             width: 80%;
+            border-radius: 10px;
+            &:hover{
+                cursor: pointer;
+
+            }
         }
     }
 }
@@ -49,7 +89,16 @@
     }
     .redsocioal-imagen{
         background-color: azure;
+        margin: 2rem;
+        border-radius: 2rem;
+        width: 80%;
+        cursor: pointer;
     }
 
 }
-
+#contac{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 4rem 5rem;
+}

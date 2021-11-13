@@ -1,11 +1,11 @@
 <section id="animacion-lottie">
-    
+
 
     <div class="c-anim c-anim--1">
-            <div class="c-anim__container o-container">
-                <div id="bm" class="c-anim__item js-anim-container">
-                </div>
+        <div class="c-anim__container o-container">
+            <div id="bm" class="c-anim__item js-anim-container">
             </div>
+        </div>
     </div>
 
     <!--  <div class="c-anim">
@@ -15,11 +15,11 @@
             </div>
         </div> -->
 
-     
+
 
 </section>
 
-<section id="we"class="we">
+<section id="we" class="we">
     <div class="we-offer">
         <h3>¿Qué Ofredcemos?</h3>
         <div class="we-offer-container">
@@ -48,6 +48,7 @@
 <section>
     <div class="services">
         <h2 class="services-title">Nuestros Planes</h2>
+        <div id="animacionClick"></div>
         <div id="services-type" class="services-type">
             <div class="services-web-informativa">
 
@@ -204,6 +205,12 @@
 
 
     </div>
+
+    <div class="contenedo-btn">
+        <div class="btn btn-blog">
+            <a href="/blogs">Ver mas..</a>
+        </div>
+    </div>
 </section>
 <section id="social">
     <h2>REDES SOLIACLES</h2>
@@ -246,13 +253,13 @@
         <p>canal de youtube</p>
 
     </div>
-    <div>
+    <div class="formulacio">
         <form action="">
-            <label for="email">Email</label>
-            <input id="email" type="text">
-            <label for="asunto">Asunto</label>
-            <input id="sunto" type="text">
-            <label for="mensaje">Mensaje</label>
+            <label for="email">Email</label><br>
+            <input id="email" type="text"><br>
+            <label for="asunto">Asunto</label><br>
+            <input id="sunto" type="text"><br>
+            <label for="mensaje">Mensaje</label><br>
             <textarea name="" id="mensaje" cols="30" rows="10"></textarea>
         </form>
 

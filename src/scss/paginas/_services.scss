@@ -4,7 +4,17 @@
 .services{
 
     text-align: center;
-   
+    position: relative;
+    height: 60rem;
+    .animacionClick{
+      position: absolute;
+      top: 0rem;
+      svg{
+        height: 22%;
+      }
+      
+    }
+  
    // display: flex;
     //justify-items: center;
     &-title{
@@ -25,8 +35,13 @@
     }
     }
     &-type{
+     
         display: flex;
         align-items: center;
+        position: absolute;
+        top: 14rem;
+        width: 90%;
+       
         //flex-direction: column;
          
         flex-direction: column;
@@ -49,6 +64,7 @@
     }
     &-web-informativa,&-web-tinendaVirtual,
     &-web-aulaVirtual{
+     
 
       margin: 2rem  auto;
       width: 80%;
