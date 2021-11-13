@@ -7,7 +7,9 @@
     <title>App Salón</title>
     <link rel="stylesheet" href="build/css/all.min.css">
     <link rel="stylesheet" href="build/css/app.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.5.9/lottie.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js"></script>
+    
 
 </head>
 
@@ -49,8 +51,7 @@
     <h1>hola</h1>
 
     </footer>
-    
-    
+   
     <script src="build/js/snowflakes.js"></script>
     <script src="build/js/lottieefec.js"></script>
     <script src="build/js/all.min.js"></script>
